@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <nav>
             <h1>Example Navbar content</h1>
-            <Link to={"/"}>Home </Link>
+            <Link to={"/"}>Home</Link>
             <NavLink
                 to={"/"}
                 className={({isActive}) => { return isActive ? "active" : "" }}>

@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import React, { Component } from 'react';
 import { Navigate } from 'react-router-dom';
 
@@ -27,4 +27,5 @@ export default class RedirectButton extends Component {
 
         )
     }
-}import { render } from 'react-dom';
+}
+import { render } from 'react-dom';
